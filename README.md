@@ -6,7 +6,7 @@ Myopia. Draw one closed, noncrossing, unbranched loop on the dotted grid edges. 
 
 ## Download and status
 https://mega.co.nz/#!wcMjCDqA!WgeVaLLVrmzxNioRdBKCBOuPJBR-sZMfPbuVPqIN8ds
-APK SHA256 b5b9d6be1d3c8f0c5efdb392af626515981577a2c9aeca33f654d88bc2b3b0e8; 20974 bytes. Original signing certificate SHA256 1661d9e269ece8a76f36ed4bba24ebc50f9de1e5f856e0567e0e8169fcb25597. Anonymous download bytes match.
+APK SHA256 b5b9d6be1d3c8f0c5efdb392af626515981577a2c9aeca33f654d88bc2b3b0e8; 20974 bytes. Original signing certificate SHA256 1651d9e269ece8a76f36ed4bba24ebc50f9de1e5f856e0567e0e8169fcb25597. Anonymous download bytes match.
 
 ## Checks
 Original portable generator enumerates all 213 simple cycles on a 4x4-dot grid and creates twelve uniquely constrained 3x3-cell arrow boards. Independent Java ordered-cycle tracing agrees with production degree/BFS topology on ALL 16,777,216 edge masks. Independent doubled-coordinate ray intersections agree with production grid-index nearest-edge distances on all 213 loops for all twelve boards; each has exactly one solution. Another 120,000 random/invalid arrow-mask cases include 1,080,000 nearest-direction comparisons; 288 single-edge mutations, bounds, solved lock and solve/undo/replay/reset pass. Archived generator reproduces levels.json and all-cycles.json byte-for-byte; archived Java passes. Drawing adapter tests actual road taps, undo/replay/next/levels/menu/settings/privacy and saved palette/direction letters/completion. Six drawing screens inspected, not phone screenshots. Phone runtime, performance and external-browser handoff QA remain incomplete. Signed TEST, not final or Play published.
